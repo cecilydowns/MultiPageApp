@@ -1,10 +1,7 @@
 import React from 'react';
 import { StackNavigator } from 'react-navigation';
 import { Text } from 'react-native';
-
-const HomeScreen = () => (
-  <Text>Hello from the home screen!</Text>
-)
+import HomeScreen from  './screens/HomeScreen';
 
 const App = StackNavigator({
   Home: {
