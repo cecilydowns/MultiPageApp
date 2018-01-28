@@ -3,7 +3,7 @@ import { StyleSheet, Text, TouchableHighlight } from 'react-native';
 
 const HomeButton = (props) => (
     <TouchableHighlight style={styles.button} onPress={props.onPress} underlayColor="#999">
-          <Text style={styles.buttonText}>{props.text}</Text>
+          <Text style={styles.buttonText}>{props.title}</Text>
     </TouchableHighlight>
 )
 
